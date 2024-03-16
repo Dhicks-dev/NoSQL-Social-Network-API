@@ -1,6 +1,5 @@
 // Importing  mongoose 
 const mongoose = require('mongoose');
-// Connecting to the MongoDB database using the MongoDB URI provided in the environment 
 mongoose.connect('mongodb://localhost:27017/Social-Network',{
     useNewUrlParser: true, 
     useUnifiedTopology: true,
